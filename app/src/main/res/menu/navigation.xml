@@ -17,8 +17,8 @@
         android:icon="@drawable/ic_unit_black_24dp"
         android:title="@string/title_unit" />
     <item
-        android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_settings_black_24dp"
-        android:title="@string/title_settings" />
+        android:id="@+id/navigation_mail"
+        android:icon="@drawable/ic_mail_black_24dp"
+        android:title="@string/title_mail" />
 
 </menu>

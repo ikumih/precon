@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_unit:
                     mTextMessage.setText(R.string.title_unit);
                     return true;
-                case R.id.navigation_settings:
-                    mTextMessage.setText(R.string.title_settings);
+                case R.id.navigation_mail:
+                    mTextMessage.setText(R.string.title_mail);
                     return true;
             }
             return false;
