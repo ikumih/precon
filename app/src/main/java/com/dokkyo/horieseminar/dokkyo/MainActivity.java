@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements  BottomNavigation
         setContentView(R.layout.activity_main);
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
+        BottomNavigationViewHelper.disableShiftMode(navigation);
         navigation.setOnNavigationItemSelectedListener(this);
 
         loadFragment(new ScheduleFragment());
